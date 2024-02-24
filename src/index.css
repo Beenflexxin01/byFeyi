@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.8;
+  font-weight: 400;
+  /* color: #555; */
+}
+
+li {
+  list-style: none;
+}
+
+.page-header {
+  font-size: 4rem;
+  text-align: center;
+  width: 30%;
+  margin: auto;
+}
+
+.container {
+  margin: 4rem 25rem;
+  padding: 4rem;
+}
+
+.main-nav-ul {
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 18rem;
+  padding: 2rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.active {
+  border-bottom: 1px solid #000000;
+}
+
+.h1-text {
+  font-size: 5rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.text {
+  font-size: 1.5rem;
+  width: 43%;
+  text-align: center;
+}
+
+.a-t,
+.m_l {
+  margin-left: 25%;
+}
+
+.m-l {
+  margin-left: 10%;
+}
+
+.about {
+  background-color: #010101;
+  padding: 8rem;
+  width: 60%;
+  /* margin: auto; */
+  position: relative;
+}
+
+.text-description {
+  color: #fff;
+  font-size: 2.5rem;
+  text-align: justify;
+  margin: auto;
+}
+
+.span {
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+hr {
+  margin: 4rem 0;
+}
+
+.btn {
+  background-color: #d9d9d9;
+  border-radius: 10rem;
+  font-size: 1.8rem;
+  padding: 5rem;
+  text-align: center;
+  margin: auto;
+  margin: 4rem 28rem 14rem;
+}
+
+.case-study {
+  background-color: #f1b351;
+  height: 55rem;
+  width: 40%;
+  padding: 4rem;
+  margin: auto;
+}
+
+.case-header {
+  color: #fff;
+  font-size: 6rem;
+  text-align: center;
+}
+
+.case-text {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 17rem;
+}
+
+.span-text {
+  position: absolute;
+  top: 70%;
+  bottom: 28%;
+  left: 23%;
+  letter-spacing: 1rem;
+}
+
+.service {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  margin: 8rem 25rem;
+  border-bottom: 2px solid #000;
+}
+
+.primary-header {
+  font-size: 7rem;
+}
+
+.arc {
+  margin-left: 8rem;
+}
+
+.serv-btn {
+  background-color: #e4e4e4;
+  padding: 0.5rem 2rem;
+  border-radius: 9rem;
+  font-size: 1.6rem;
+}
+
+.serv {
+  margin-top: 3rem;
+}
+
+.s-s {
+  border-bottom: none;
+  border-top: 2px solid #000;
+  width: 40%;
+  margin: 0 25%;
+}
+
+.wk {
+  margin-left: 27rem;
+}
+
+.port-serv {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #000;
+}
+
+.img {
+  height: 50%;
+  width: 50%;
+}
+
+.grid-2-cols {
+  display: flex;
+  gap: 3rem;
+  align-items: baseline;
+  align-items: center;
+  position: relative;
+}
+
+.s-t {
+  font-size: 3rem;
+}
+
+.img {
+  margin: 3rem 0;
+}
+
+.block {
+  position: absolute;
+  top: 53%;
+  left: 51%;
+}
+
+.bloc {
+  margin-top: 15%;
+}
+
+.see {
+  background-color: #000;
+  color: #fff;
+  border-radius: 90rem;
+  padding: 4rem;
+  text-align: center;
+  margin: 4rem auto;
+  width: 17%;
+  font-size: 1.8rem;
+}
+
+.blog {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-top: 15rem;
+}
+
+.s-1 {
+  position: absolute;
+  left: 45%;
+  top: -3%;
+}
+
+.s-2 {
+  left: 75%;
+  top: -10%;
+}
+
+.b-img {
+  width: 50%;
+  height: 100%;
+}
+
+.moving {
+  background-color: #f1b351;
+  padding: 2.5rem;
+  text-align: center;
+  margin: 10rem 0;
+}
+
+.move {
+  font-size: 3rem;
+}
+
+.b-o {
+  border-bottom: 1px solid #000;
+}
+
+.t-o {
+  margin-left: 22rem;
+}
+
+.g-d {
+  display: flex;
+  align-items: first baseline;
+}
+
+.txt {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.t-x {
+  width: 70%;
+}
+
+.form-li {
+  margin: 1.4rem 0;
+}
+
+.form-flex {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.input,
+.textarea {
+  padding: 1.2rem;
+  border-radius: 9px;
+  width: 100%;
+  resize: none;
+}
+
+.submit {
+  background-color: #000;
+  color: #fff;
+  padding: 3rem;
+  border-radius: 50rem;
+  text-align: center;
+  margin: 0 15rem;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #000;
+}
+
+.footer-link {
+  color: #fff;
+}
+
+.footer-des  {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
