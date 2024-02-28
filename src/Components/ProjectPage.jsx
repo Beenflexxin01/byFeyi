@@ -67,8 +67,8 @@ function ProjectPage() {
           <img src={p4} alt="" className="p-img" />
         </div>
 
-        <div className="tertiary-header">
-          OTHER PROJECTS
+        <div className="">
+          <h3 className="tertiary-header">OTHER PROJECTS</h3>
           <div className="grid-3">
             <div className="grid-3-cols">
               <img src={s1} alt="" className="grid-3-img" />
@@ -77,8 +77,8 @@ function ProjectPage() {
                 <p className="text">DECEMBER 6, 2024</p>
                 <h4 className="nur-header">SLEEPLESS NIGHTS</h4>
               </div>
-                      </div>
-                      
+            </div>
+
             <div className="grid-3-cols">
               <img src={s1} alt="" className="grid-3-img" />
 

@@ -1,9 +1,13 @@
+import BlogPage from "../Features/BlogPage";
+import Footer from "../UI/Footer";
+
 function Blog() {
-    return (
-        <div>
-            
-        </div>
-    )
+  return (
+    <div>
+      <BlogPage />
+      <Footer />
+    </div>
+  );
 }
 
-export default Blog
+export default Blog;

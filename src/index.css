@@ -541,3 +541,11 @@ hr {
 .grid-3-cols {
   margin: 2rem;
 }
+
+.nur-header {
+  font-size: 2rem;
+}
+
+.cols {
+  margin: 7rem 2rem;
+}
