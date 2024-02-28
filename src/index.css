@@ -28,7 +28,7 @@ li {
 }
 
 .container {
-  margin: 4rem 25rem;
+  margin: 4rem 15rem;
   padding: 4rem;
 }
 
@@ -37,7 +37,7 @@ li {
   justify-content: space-around;
   justify-content: space-between;
   align-items: center;
-  margin: 3rem 18rem;
+  margin: 3rem 18rem 0;
   padding: 2rem;
 }
 
@@ -79,7 +79,6 @@ li {
 .about {
   background-color: #010101;
   padding: 8rem;
-  width: 60%;
   /* margin: auto; */
   position: relative;
 }
@@ -107,7 +106,7 @@ hr {
   padding: 5rem;
   text-align: center;
   margin: auto;
-  margin: 4rem 28rem 14rem;
+  margin: 4rem 40%;
 }
 
 .case-study {
@@ -115,7 +114,7 @@ hr {
   height: 55rem;
   width: 40%;
   padding: 4rem;
-  margin: auto;
+  margin: 6rem auto;
 }
 
 .case-header {
@@ -132,10 +131,9 @@ hr {
 
 .span-text {
   position: absolute;
-  top: 70%;
   bottom: 28%;
-  left: 23%;
-  letter-spacing: 1rem;
+  left: 27%;
+  letter-spacing: 2rem;
 }
 
 .service {
@@ -155,6 +153,10 @@ hr {
   margin-left: 8rem;
 }
 
+.arch {
+  text-align: center;
+}
+
 .serv-btn {
   background-color: #e4e4e4;
   padding: 0.5rem 2rem;
@@ -170,7 +172,7 @@ hr {
   border-bottom: none;
   border-top: 2px solid #000;
   width: 40%;
-  margin: 0 25%;
+  margin: 0 32%;
 }
 
 .wk {
@@ -191,7 +193,6 @@ hr {
 .grid-2-cols {
   display: flex;
   gap: 3rem;
-  align-items: baseline;
   align-items: center;
   position: relative;
 }
@@ -311,13 +312,15 @@ hr {
 
 .footer {
   background-color: #000;
+  margin-top: 14rem;
+  padding: 2rem;
 }
 
 .footer-link {
   color: #fff;
 }
 
-.footer-des  {
+.footer-des {
   text-align: center;
   font-size: 1.5rem;
   line-height: 3;
@@ -326,4 +329,215 @@ hr {
 .link {
   color: #fff;
   text-decoration: none;
+}
+
+.abt {
+  background-color: transparent;
+}
+
+.abt-text,
+.spn {
+  color: #000;
+}
+
+.view {
+  color: #fff;
+  background: #000;
+}
+
+.move-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.mov {
+  margin: 4rem 0;
+}
+
+.h1-img {
+  width: 100%;
+  height: 70vh;
+}
+
+.image {
+  position: relative;
+}
+
+.h1 {
+  position: absolute;
+  top: -24%;
+  left: 14%;
+  color: #fff;
+}
+
+.sec-header {
+  font-size: 2.4rem;
+}
+
+.fvt {
+  font-size: 1.8rem;
+}
+
+.s-p {
+  font-size: 1rem;
+}
+
+.fvt-std {
+  padding: 1rem;
+}
+
+.p-h {
+  top: 39%;
+}
+
+.f-img {
+  width: 30%;
+  height: 30%;
+}
+
+.fl {
+  margin-top: 5rem;
+}
+
+.flex-text {
+  display: flex;
+  margin-top: 4rem;
+  align-items: center;
+}
+
+.tx {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.p-t {
+  font-size: 3.5rem;
+}
+
+.p-m {
+  margin: 4rem 0;
+  cursor: pointer;
+}
+
+.portfolio-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.port-img {
+  /* position: absolute; */
+  margin-left: 44%;
+}
+
+.p-l {
+  position: absolute;
+  top: 49%;
+  left: 18%;
+}
+
+.portfolio-header {
+  font-size: 8rem;
+}
+
+.portfolio-h1 {
+  top: -30%;
+}
+
+.grid--2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-2--cols {
+  margin: 5rem 3rem;
+}
+
+.arc-img {
+  height: 100%;
+  width: 100%;
+}
+
+.port-text {
+  cursor: pointer;
+  color: #eeeeee;
+  color: #000;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-left: 44rem;
+}
+
+.port-text:hover,
+.port-text:active {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.text-desc {
+  color: #000;
+}
+
+.arc-h1 {
+  top: 35%;
+}
+
+.arc-design {
+  margin-left: 48rem;
+}
+
+.prod-design {
+  margin-left: 20rem;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.tertiary-header {
+  font-size: 2.5rem;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.details-text {
+  font-size: 1.8rem;
+}
+
+.grid-margin {
+  margin: 3rem;
+}
+
+.p-img {
+  height: 70%;
+  height: 100vh;
+  width: 100%;
+  margin: 3rem 0;
+}
+
+.imgs {
+  margin: 3rem 0;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-3-img {
+  width: 100%;
+  height: 100%;
+}
+
+.grid-4-txt {
+  margin-left: 2.5rem;
+}
+
+.grid-3-cols {
+  margin: 2rem;
 }

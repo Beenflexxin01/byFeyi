@@ -7,6 +7,11 @@ import Portfolio from "./Pages/Portfolio";
 import Service from "./Pages/Service";
 import PageNotFound from "./Pages/PageNotFound";
 import About from "./Pages/About";
+import Curent from "./Components/Curent";
+import ArchitectureDesign from "./Components/ArchitectureDesign";
+import Intertiro from "./Components/Intertiro";
+import Product from "./Components/Product";
+import ProjectPage from "./Components/ProjectPage";
 function App() {
   return (
     <>
@@ -20,6 +25,11 @@ function App() {
             <Route path="services" element={<Service />} />
             <Route path="portfolio" element={<Portfolio />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="current" element={<Curent />} />
+            <Route path="architecture" element={<ArchitectureDesign />} />
+            <Route path="interior" element={<Intertiro />} />
+            <Route path="product" element={<Product />} />
+            <Route path="product/project" element={<ProjectPage />} />
             <Route path="*" element={<PageNotFound />} />
           </Route>
         </Routes>
