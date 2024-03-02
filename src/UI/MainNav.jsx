@@ -3,10 +3,12 @@ import logo from "../images/logo.png";
 function MainNav() {
   return (
     <nav className="main-nav">
-      <ul className="main-nav-ul">
+      <div className="logo-img">
         <NavLink to="/">
           <img src={logo} alt="logo" />
         </NavLink>
+      </div>
+      <ul className="main-nav-ul">
         <li className="main-nav-li">
           <NavLink className="nav-link" to="/">
             HOME

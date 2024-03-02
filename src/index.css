@@ -28,17 +28,22 @@ li {
 }
 
 .container {
-  margin: 4rem 15rem;
+  margin: 4rem 8rem;
   padding: 4rem;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 7rem;
 }
 
 .main-nav-ul {
   display: flex;
-  justify-content: space-around;
-  justify-content: space-between;
-  align-items: center;
-  margin: 3rem 18rem 0;
+  margin: 3rem;
   padding: 2rem;
+  gap: 8rem;
 }
 
 .nav-link {
@@ -52,22 +57,31 @@ li {
 }
 
 .h1-text {
-  font-size: 5rem;
+  font-size: 10rem;
+}
+
+.header-container {
+  margin-top: 9rem;
 }
 
 .flex {
   display: flex;
   align-items: center;
   gap: 4rem;
+  margin-left: 20rem;
 }
 
 .text {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   width: 43%;
   text-align: center;
 }
 
 .a-t,
+.m_l {
+  margin-left: 28%;
+}
+
 .m_l {
   margin-left: 25%;
 }
@@ -79,7 +93,6 @@ li {
 .about {
   background-color: #010101;
   padding: 8rem;
-  /* margin: auto; */
   position: relative;
 }
 
@@ -101,18 +114,29 @@ hr {
 
 .btn {
   background-color: #d9d9d9;
-  border-radius: 10rem;
-  font-size: 1.8rem;
-  padding: 5rem;
+  border-radius: 50%;
+  font-size: 1.6rem;
+  padding: 5rem 0.5rem;
   text-align: center;
-  margin: auto;
-  margin: 4rem 40%;
+  margin: 4rem 44%;
+  transition: 0.3s all linear;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #a59b9b;
+  transform: scale(1.03);
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  outline: none;
 }
 
 .case-study {
   background-color: #f1b351;
   height: 55rem;
-  width: 40%;
+  width: 26%;
   padding: 4rem;
   margin: 6rem auto;
 }
@@ -132,8 +156,8 @@ hr {
 .span-text {
   position: absolute;
   bottom: 28%;
-  left: 27%;
-  letter-spacing: 2rem;
+  left: 32%;
+  letter-spacing: 1rem;
 }
 
 .service {
@@ -146,15 +170,20 @@ hr {
 }
 
 .primary-header {
-  font-size: 7rem;
+  font-size: 11rem;
+}
+
+.hover {
+  transition: 0.5s all linear;
+}
+
+.hover:hover,
+.hover:active {
+  transform: translate(4%);
 }
 
 .arc {
-  margin-left: 8rem;
-}
-
-.arch {
-  text-align: center;
+  margin-left: 18rem;
 }
 
 .serv-btn {
@@ -171,8 +200,7 @@ hr {
 .s-s {
   border-bottom: none;
   border-top: 2px solid #000;
-  width: 40%;
-  margin: 0 32%;
+  margin: 0 auto;
 }
 
 .wk {
@@ -195,14 +223,21 @@ hr {
   gap: 3rem;
   align-items: center;
   position: relative;
+  overflow: hidden;
 }
 
 .s-t {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 .img {
   margin: 3rem 0;
+  transition: 0.5s all linear;
+}
+
+.img:hover,
+.img:active {
+  transform: scale(1.01) translateY(0.5%);
 }
 
 .block {
@@ -219,18 +254,32 @@ hr {
   background-color: #000;
   color: #fff;
   border-radius: 90rem;
-  padding: 4rem;
+  padding: 4rem 0;
   text-align: center;
   margin: 4rem auto;
-  width: 17%;
+  width: 8%;
   font-size: 1.8rem;
+  transition: 0.3s all linear;
+  cursor: pointer;
+}
+
+.see:hover,
+.see:active,
+.submit:hover,
+.submit:active {
+  transform: scale(1.06) rotate(-15deg);
 }
 
 .blog {
   display: flex;
   position: relative;
   align-items: center;
+  gap: 4rem;
   margin-top: 15rem;
+}
+
+.sleepless {
+  margin: 2rem;
 }
 
 .s-1 {
@@ -239,14 +288,24 @@ hr {
   top: -20%;
 }
 
+.s-a {
+  font-size: 1.3rem;
+}
+
 .s-2 {
   left: 72%;
   top: -50%;
 }
 
 .b-img {
-  width: 50%;
+  width: 40rem;
   height: 100%;
+  transition: 0.5s all linear;
+}
+
+.b-img:hover,
+.b-img:active {
+  transform: scale(1.02);
 }
 
 .moving {
@@ -269,8 +328,9 @@ hr {
 }
 
 .g-d {
-  display: flex;
-  align-items: first baseline;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: baseline;
 }
 
 .txt {
@@ -296,18 +356,25 @@ hr {
 .textarea {
   padding: 1.2rem;
   border-radius: 9px;
-  width: 100%;
+  width: 30rem;
   resize: none;
+}
+
+.textarea {
+  width: 100%;
+  padding: 3rem;
 }
 
 .submit {
   background-color: #000;
   color: #fff;
-  padding: 3rem;
-  border-radius: 50rem;
+  padding: 3rem 2rem;
+  border-radius: 50%;
   text-align: center;
-  margin: 0 15rem;
+  margin: 0 25rem;
+  cursor: pointer;
   font-weight: bold;
+  transition: 0.3s all linear;
 }
 
 .footer {
@@ -343,6 +410,8 @@ hr {
 .view {
   color: #fff;
   background: #000;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 .move-btn {
@@ -368,7 +437,7 @@ hr {
 
 .h1 {
   position: absolute;
-  top: -24%;
+  top: -31%;
   left: 14%;
   color: #fff;
 }
@@ -415,6 +484,7 @@ hr {
 
 .p-t {
   font-size: 3.5rem;
+  font-weight: bold;
 }
 
 .p-m {
@@ -480,7 +550,7 @@ hr {
 }
 
 .arc-h1 {
-  top: 35%;
+  top: 25%;
 }
 
 .arc-design {

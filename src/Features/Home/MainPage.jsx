@@ -2,7 +2,7 @@ import feyi from "../../images/feyi.png";
 function MainPage() {
   return (
     <>
-      <div className="container">
+      <div className="header-container">
         <div className="home">
           <div className="flex">
             <img src={feyi} alt="" className="f-i" />
@@ -17,7 +17,9 @@ function MainPage() {
             </p>
           </div>
           <p className="h1-text a-t">SPACE</p>
-          <p className="text m_l">SPECIALIZED IN ARCHITECTURAL, INTERIOR & PRODUCT DESIGN</p>
+          <p className="text m_l">
+            SPECIALIZED IN ARCHITECTURAL, INTERIOR & PRODUCT DESIGN
+          </p>
         </div>
       </div>
     </>

@@ -28,9 +28,9 @@ function Services() {
         <p className="ser">SEE ALL BLOGS</p>
       </div>
       <div className="container arch">
-        <h1 className="primary-header arc">ARCHITECTURE</h1>
-        <h1 className="primary-header">INTERIOR DESIGN</h1>
-        <h1 className="primary-header arc">PRODUCT DESIGN</h1>
+        <h1 className="primary-header arc hover">ARCHITECTURE</h1>
+        <h1 className="primary-header hover">INTERIOR DESIGN</h1>
+        <h1 className="primary-header arc hover">PRODUCT DESIGN</h1>
       </div>
       <div className="service s-s">
         <p className="serv">SERVICES</p>

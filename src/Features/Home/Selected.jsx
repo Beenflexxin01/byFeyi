@@ -11,13 +11,13 @@ function Selected() {
           <p className="serv">SEE ALL PORTFOLIO</p>
         </div>
         <div className="arch">
-          <hi className="primary-header">
+          <h1 className="primary-header">
             SELECTED <br /> <span className="wk">WORKS</span>
-          </hi>
+          </h1>
         </div>
 
-        <div className="grid-2">
-          <div className="grid-2-cols">
+        <div className="grid-2 ">
+          <div className="grid-2-cols ">
             <img src={s1} alt="" className="img" />
             <div className="block">
               <p className="s-t">
@@ -27,7 +27,7 @@ function Selected() {
             </div>
           </div>
 
-          <div className="grid-2-cols">
+          <div className="grid-2-cols ">
             <div className="bloc">
               <p className="s-t">
                 FLOATING <br /> HOUSE
@@ -37,7 +37,7 @@ function Selected() {
             <img src={s2} alt="" className="img" />
           </div>
 
-          <div className="grid-2-cols">
+          <div className="grid-2-cols overflow">
             <img src={s3} alt="" className="img" />
             <div className="block">
               <p className="s-t">
