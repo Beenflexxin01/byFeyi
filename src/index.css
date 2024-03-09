@@ -56,6 +56,12 @@ li {
   border-bottom: 1px solid #000000;
 }
 
+.burger-menu {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
 .h1-text {
   font-size: 10rem;
 }
@@ -68,6 +74,9 @@ li {
   display: flex;
   align-items: center;
   gap: 4rem;
+}
+
+.ml {
   margin-left: 20rem;
 }
 
@@ -385,6 +394,14 @@ hr {
 
 .footer-link {
   color: #fff;
+}
+
+.footer-nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer-des {

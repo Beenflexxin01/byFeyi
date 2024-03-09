@@ -7,12 +7,11 @@ function Footer() {
       <div className="containr">
         <div className="footer">
           <nav className="footer-nav">
-            <ul className="main-nav-ul">
-              <li>
-                <NavLink to="/" className="nav-link footer-link"></NavLink>
-                <img src={logo} alt="" className="footer-img" />
-              </li>
-
+            <li>
+              <NavLink to="/" className="nav-link footer-link"></NavLink>
+              <img src={logo} alt="" className="footer-img" />
+            </li>
+            <ul className="main-nav-ul footer-nav-ul">
               <li className="main-nav-li">
                 <NavLink className="nav-link footer-link">INSTAGRAM</NavLink>
               </li>
@@ -28,17 +27,19 @@ function Footer() {
               <li className="main-nav-li">
                 <NavLink className="nav-link footer-link">BEHANCE</NavLink>
               </li>
-
-              <li className="main-nav-li">
-                <NavLink className="nav-link footer-link">TOP</NavLink>
-              </li>
             </ul>
+            <p className="main-nav-li">
+              <NavLink className="nav-link footer-link">TOP</NavLink>
+            </p>
           </nav>
           <p className="text-description footer-des">
             WEBSITE LAYOUT DESIGN BY FEYI FAKOLADE
           </p>
           <p className="text-description footer-des">
-            <Link to="https://nola-portfolio.netlify.app/" className="link" target="blank">
+            <Link
+              to="https://nola-portfolio.netlify.app/"
+              className="link"
+              target="blank">
               ENGINEERED BY OMOTAYO ADENOLA
             </Link>
           </p>

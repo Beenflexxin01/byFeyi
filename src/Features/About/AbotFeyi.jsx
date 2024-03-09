@@ -9,7 +9,7 @@ function AbotFeyi() {
       </div>
       <div className=" container about abt">
         <div className="h1">
-          <h1 className="primary-header ">
+          <h1 className="primary-header media-header">
             FEYISITAN <br /> <span className="arc">FAKOLADE</span>{" "}
           </h1>
         </div>

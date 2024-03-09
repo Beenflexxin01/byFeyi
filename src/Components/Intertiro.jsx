@@ -18,7 +18,7 @@ function Intertiro() {
       </div>
       <div className=" container">
         <div className="h1 arc-h1">
-          <h1 className="primary-header ">
+          <h1 className="primary-header media-header">
             INTERIOR <br /> <span className="arc">DESIGN</span>
           </h1>
           <p className="port-text" onClick={() => Navigate("/portfolio")}>

@@ -16,14 +16,14 @@ function ProjectPage() {
       </div>
       <div className=" container">
         <div className="h1 arc-h1">
-          <h1 className="primary-header ">
+          <h1 className="primary-header media-header">
             PROJECT <br /> <span className="arc prod-design">NAME</span>
           </h1>
           <p className="port-text" onClick={() => Navigate("/portfolio")}>
             Back to Portfolio
           </p>
         </div>
-        <div className="grid--2">
+        <div className="grid--2 grid-block">
           <div className="grid-2--cols grid-margin">
             <h3 className="tertiary-header">Project Details</h3>
             <div className="details">
@@ -74,7 +74,7 @@ function ProjectPage() {
               <img src={s1} alt="" className="grid-3-img" />
 
               <div className="grid-4-txt">
-                <p className="text">DECEMBER 6, 2024</p>
+                <p className="text blog-width">DECEMBER 6, 2024</p>
                 <h4 className="nur-header">SLEEPLESS NIGHTS</h4>
               </div>
             </div>
@@ -83,7 +83,7 @@ function ProjectPage() {
               <img src={s1} alt="" className="grid-3-img" />
 
               <div className="grid-4-txt">
-                <p className="text">DECEMBER 6, 2024</p>
+                <p className="text blog-width">DECEMBER 6, 2024</p>
                 <h4 className="nur-header">SLEEPLESS NIGHTS</h4>
               </div>
             </div>
@@ -91,7 +91,7 @@ function ProjectPage() {
               <img src={s1} alt="" className="grid-3-img" />
 
               <div className="grid-4-txt">
-                <p className="text">DECEMBER 6, 2024</p>
+                <p className="text blog-width">DECEMBER 6, 2024</p>
                 <h4 className="nur-header">SLEEPLESS NIGHTS</h4>
               </div>
             </div>

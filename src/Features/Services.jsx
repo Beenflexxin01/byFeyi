@@ -8,7 +8,7 @@ function Services() {
       </div>
       <div className="container">
         <div className="h1 arc-h1">
-          <h1 className="primary-header ">
+          <h1 className="primary-header media-header">
             SERVICE <br /> <span className="arc">OFFERINGS</span>{" "}
           </h1>
         </div>

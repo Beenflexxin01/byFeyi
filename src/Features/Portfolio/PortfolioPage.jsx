@@ -12,7 +12,7 @@ function PortfolioPage() {
       </div>
       <div className=" container about abt">
         <div className="h1 portfolio-h1">
-          <h1 className="primary-header portfolio-header ">
+          <h1 className="primary-header portfolio-header media-header">
             DESIGN <br /> <span className="arc">PORTFOLIO</span>
           </h1>
         </div>
@@ -32,7 +32,7 @@ function PortfolioPage() {
           <div
             className="grid-2-cols p-m"
             onClick={() => Navigate("/interior")}>
-            <div className="p-l">
+            <div className="p-l bloc">
               <p className="s-a p-t">
                 INTERIOR <br /> DESIGN
               </p>

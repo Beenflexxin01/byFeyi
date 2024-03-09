@@ -9,7 +9,7 @@ function About() {
       </div>
       <div className=" container fvt-std">
         <div className="h1 p-h">
-          <h1 className="primary-header ">
+          <h1 className="primary-header media-header">
             CREATIVE{" "}
             <span className="arc">
               {" "}

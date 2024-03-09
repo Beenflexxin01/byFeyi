@@ -4,7 +4,7 @@ import Blog from "../Features/Home/Blog";
 import MainPage from "../Features/Home/MainPage";
 import Selected from "../Features/Home/Selected";
 import Footer from "../UI/Footer";
-import Contact from "./Contact";
+import ContactPage from "../Features/Home/ContactPage";
 
 function Home() {
   return (
@@ -14,7 +14,7 @@ function Home() {
       <Architecture />
       <Selected />
       <Blog />
-      <Contact />
+      <ContactPage />
       <Footer />
     </div>
   );

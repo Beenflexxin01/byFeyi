@@ -1,9 +1,10 @@
 import ContactPage from "../Features/Home/ContactPage";
-
+import Footer from "../UI/Footer";
 function Contact() {
   return (
     <div>
-   <ContactPage />
+      <ContactPage />
+      <Footer />
     </div>
   );
 }

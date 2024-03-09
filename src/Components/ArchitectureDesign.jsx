@@ -16,7 +16,7 @@ function ArchitectureDesign() {
       </div>
       <div className=" container">
         <div className="h1 arc-h1">
-          <h1 className="primary-header ">
+          <h1 className="primary-header media-header">
             ARCHITECTURE <br /> <span className="arc arc-design">DESIGN</span>
           </h1>
           <p className="port-text" onClick={() => Navigate("/portfolio")}>
