@@ -32,17 +32,6 @@ function Footer() {
               <NavLink className="nav-link footer-link">TOP</NavLink>
             </p>
           </nav>
-          <p className="text-description footer-des">
-            WEBSITE LAYOUT DESIGN BY FEYI FAKOLADE
-          </p>
-          <p className="text-description footer-des">
-            <Link
-              to="https://nola-portfolio.netlify.app/"
-              className="link"
-              target="blank">
-              ENGINEERED BY OMOTAYO ADENOLA
-            </Link>
-          </p>
         </div>
       </div>
     </>

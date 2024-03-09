@@ -10,7 +10,7 @@ function Blog() {
             <div className="grid-4-txt">
               <p>DECEMBER 8, 2023</p>
               <p className="s-t">
-                SLEEPLESS <br /> NIGHTS
+                SLEEPLESS NIGHTS
               </p>
             </div>
           </div>
@@ -20,7 +20,7 @@ function Blog() {
             <div className="grid-4-txt">
               <p>DECEMBER 10, 2023</p>
               <p className="s-t">
-                SLEEPLESS <br /> NIGHTS
+                SLEEPLESS NIGHTS
               </p>
             </div>
           </div>
@@ -30,7 +30,7 @@ function Blog() {
             <div className="grid-4-txt">
               <p>MARCH 5, 2024</p>
               <p className="s-t">
-                SLEEPLESS <br /> NIGHTS
+                SLEEPLESS NIGHTS
               </p>
             </div>
           </div>
