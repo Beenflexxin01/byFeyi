@@ -6,7 +6,7 @@ import arc4 from "../images/arc3.png";
 import arc5 from "../images/arc 4.png";
 import arc6 from "../images/arc 5.png";
 import Footer from "../UI/Footer";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 function ArchitectureDesign() {
   const Navigate = useNavigate();
   return (
@@ -20,7 +20,9 @@ function ArchitectureDesign() {
             ARCHITECTURE <br /> <span className="arc arc-design">DESIGN</span>
           </h1>
           <p className="port-text" onClick={() => Navigate("/portfolio")}>
-            Back to Portfolio
+            <Link to={"/portfolio"} className="port-text">
+              Back to Portfolio
+            </Link>
           </p>
         </div>
         <div className="grid--2">

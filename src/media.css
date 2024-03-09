@@ -1,7 +1,7 @@
 @media (max-width: 84em) {
-  body {
+  /* body {
     background-color: red;
-  }
+  } */
 
   .h1-text {
     font-size: 9rem;
@@ -40,9 +40,9 @@
   }
 }
 @media (max-width: 75em) {
-  body {
+  /* body {
     background-color: green;
-  }
+  } */
 
   .h1-text {
     font-size: 7rem;
@@ -85,9 +85,9 @@
   }
 }
 @media (max-width: 65em) {
-  body {
+  /* body {
     background-color: rgb(154, 248, 154);
-  }
+  } */
 
   .h1-text {
     font-size: 5.5rem;
@@ -240,9 +240,9 @@
 }
 
 @media (max-width: 55em) {
-  body {
+  /* body {
     background-color: rgb(48, 164, 156);
-  }
+  } */
 
   html {
     overflow-x: hidden;
@@ -348,9 +348,9 @@
 }
 
 @media (max-width: 45em) {
-  body {
+  /* body {
     background-color: rgb(164, 48, 121);
-  }
+  } */
 
   .span-text {
     left: 20%;
@@ -489,9 +489,9 @@
 }
 
 @media (max-width: 39em) {
-  body {
+  /* body {
     background-color: rgb(195, 186, 238);
-  }
+  } */
 
   .h1-text {
     font-size: 2rem;
@@ -619,9 +619,9 @@
 }
 
 @media (max-width: 33em) {
-  body {
-    background-color: #fff;
-  }
+  /* body {
+    background-color: #ea9e9e;
+  } */
 
   html {
     overflow-x: hidden;
@@ -631,8 +631,13 @@
     margin: 0;
   }
 
+  .grid-margin {
+    margin: 0;
+  }
+
   .container {
     margin: 0;
+    padding: 3rem;
   }
 
   .about {
@@ -728,5 +733,9 @@
 
   .p-h {
     top: 30%;
+  }
+
+  .footer-des {
+    font-size: 1.1rem;
   }
 }
