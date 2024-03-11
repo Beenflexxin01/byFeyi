@@ -11,9 +11,11 @@ html {
 }
 
 body {
+  font-family: "Madimi One", sans-serif;
+  /* font-family: "Josefin Sans", sans-serif; */
   line-height: 1.8;
-  font-weight: 400;
-  /* color: #555; */
+  font-weight: 300;
+  /* font-family: Helvetica; */
 }
 
 li {
@@ -37,6 +39,10 @@ li {
   align-items: center;
   justify-content: space-between;
   margin: 1rem 7rem;
+  position: sticky;
+  top: -200%;
+  z-index: 1;
+  /* background-color: #726666; */
 }
 
 .main-nav-ul {
@@ -166,7 +172,7 @@ hr {
 .span-text {
   position: absolute;
   bottom: 28%;
-  left: 32%;
+  left: 35%;
   letter-spacing: 1rem;
 }
 
