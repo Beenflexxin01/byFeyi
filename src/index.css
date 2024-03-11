@@ -11,9 +11,9 @@ html {
 }
 
 body {
-  font-family: "Kanit", sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.8;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 li {
@@ -72,6 +72,19 @@ li {
 
 .header-container {
   margin-top: 9rem;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 4rem 8rem;
+}
+
+.icons {
+  border: 1px solid #000;
+  border-radius: 9px;
+  padding: 0.2rem;
 }
 
 .flex {

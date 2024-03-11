@@ -1,4 +1,6 @@
 import feyi from "../../images/feyi.png";
+import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+
 function MainPage() {
   return (
     <>
@@ -23,6 +25,11 @@ function MainPage() {
             </p>
           </div>
         </div>
+          <div className="social-icons">
+            <FaInstagram size={"24px"} className="icons" />
+            <FaFacebook size={"24px"} className="icons" />
+            <FaTwitter size={"24px"} className="icons" />
+          </div>
       </div>
     </>
   );

@@ -516,10 +516,6 @@
     background-color: rgb(195, 186, 238);
   } */
 
-  .h1-text {
-    font-size: 2rem;
-  }
-
   .f-i {
     width: 20%;
     height: 100%;
@@ -672,7 +668,10 @@
 
   .about {
     padding: 2.4rem;
-    margin-top: 15rem;
+  }
+
+  .social-icons {
+    margin: 4rem 2rem;
   }
 
   .abt {
@@ -700,12 +699,17 @@
   }
 
   .case-study {
-    width: 30%;
+    width: 100%;
+  }
+
+  .wk {
+    margin-left: 7rem;
   }
 
   .span-text {
-    bottom: 23%;
-    left: 32%;
+    bottom: 20%;
+    left: 25%;
+    font-size: 3.2rem;
     letter-spacing: 0.3rem;
   }
 
