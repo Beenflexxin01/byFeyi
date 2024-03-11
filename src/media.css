@@ -649,6 +649,15 @@
     overflow-x: hidden;
   }
 
+  .h1-text {
+    font-size: 3.5rem;
+  }
+
+  .f-i {
+    width: 10%;
+    height: 70%;
+  }
+
   .submit {
     margin: 0;
   }
