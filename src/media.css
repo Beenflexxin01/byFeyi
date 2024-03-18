@@ -40,9 +40,9 @@
   }
 }
 @media (max-width: 75em) {
-  body {
+  /* body {
     background-color: green;
-  }
+  } */
 
   .h1-text {
     font-size: 7rem;
@@ -85,9 +85,9 @@
   }
 }
 @media (max-width: 65em) {
-  body {
+  /* body {
     background-color: rgb(154, 248, 154);
-  }
+  } */
 
   .header-container {
     margin-top: 5rem;
@@ -288,9 +288,9 @@
 }
 
 @media (max-width: 59em) {
-  body {
+  /* body {
     background-color: rgb(48, 164, 156);
-  }
+  } */
 
   .container {
     margin: 2rem;
@@ -404,9 +404,9 @@
 }
 
 @media (max-width: 49.75em) {
-  body {
+  /* body {
     background-color: rgb(164, 48, 121);
-  }
+  } */
 
   .h1-text {
     font-size: 6.3rem;
@@ -585,9 +585,10 @@
 }
 
 @media (max-width: 40.6em) {
-  body {
+  /* body {
     background-color: rgb(195, 186, 238);
-  }
+  } */
+
   .h1-text {
     font-size: 5.6rem;
   }
@@ -685,9 +686,9 @@
 }
 
 @media (max-width: 36.2em) {
-  body {
+  /* body {
     background-color: #ea9e9e;
-  }
+  } */
 
   html {
     overflow-x: hidden;
@@ -845,9 +846,9 @@
 }
 
 @media (max-width: 33em) {
-  body {
+  /* body {
     background-color: #eeecec;
-  }
+  } */
 
   .h1-text {
     font-size: 4.3rem;
@@ -887,9 +888,9 @@
 }
 
 @media (max-width: 30.45em) {
-  body {
+  /* body {
     background-color: #a11919;
-  }
+  } */
 
   .h1-text {
     font-size: 4rem;
@@ -913,9 +914,9 @@
 }
 
 @media(max-width: 29em) {
-  body {
+  /* body {
     background-color: grey;
-  }
+  } */
 
   .h1-text {
     font-size: 3.5rem;
@@ -943,9 +944,9 @@ left: 22%;
 }
 
 @media(max-width: 26em) {
-  body {
+  /* body {
     background-color: #fff;
-  }
+  } */
 
   .h1-text {
     font-size: 3rem;
@@ -975,9 +976,9 @@ left: 22%;
 }
 
 @media(max-width: 23.25em) {
-  body {
+  /* body {
     background-color: red;
-  }
+  } */
 
   .h1-text {
     font-size: 2.3rem;
