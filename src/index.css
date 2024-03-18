@@ -69,7 +69,6 @@ li {
 .h1-text {
   font-size: 10rem;
   font-weight: bold;
-
 }
 
 .header-container {
@@ -111,7 +110,6 @@ li {
   text-align: center;
 }
 
-
 .a-t,
 .m_l {
   margin-left: 28%;
@@ -128,6 +126,7 @@ li {
 .about {
   background-color: #010101;
   padding: 8rem;
+  margin: 0;
   position: relative;
 }
 
@@ -194,7 +193,7 @@ hr {
 .span-text {
   position: absolute;
   bottom: 28%;
-  left: 35%;
+  left: 34%;
   letter-spacing: 1rem;
 }
 

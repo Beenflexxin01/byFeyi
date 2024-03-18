@@ -1,7 +1,7 @@
 function AboutMe() {
   return (
     <>
-      <div className=" container about">
+      <div className="about">
         <p className="text-description">
           <span className="span">ABOUT ME</span> Feyi Fakolade embodies
           creativity and versatility as a designer. Specializing in
