@@ -35,11 +35,11 @@ function Blog() {
             </div>
           </div>
         </div>
+      </div>
         <div className="moving">
           <p className="move">THIS IS A MOVING AD</p>
         </div>
         <div className="b-o"></div>
-      </div>
     </>
   );
 }

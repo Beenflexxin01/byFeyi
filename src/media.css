@@ -227,7 +227,7 @@
     left: 0;
     right: 0;
     width: 100%;
-    height: 70vh;
+    height: 60vh;
     align-items: start;
     transition: all 0.3s linear;
     transform: translateY(10%);
@@ -965,7 +965,7 @@
   }
 
   .media-text {
-    bottom: 28rem;
+    bottom: 25rem;
   }
 
   .span-text {
