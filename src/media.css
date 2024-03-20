@@ -949,6 +949,11 @@
 
   .media-space {
     bottom: 43rem;
+    bottom: 42rem;
+  }
+
+  .text-description {
+    padding: 1rem;
   }
 
   .media-create {
