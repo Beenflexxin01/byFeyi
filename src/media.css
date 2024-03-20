@@ -913,7 +913,7 @@
   }
 }
 
-@media(max-width: 29em) {
+@media (max-width: 29em) {
   /* body {
     background-color: grey;
   } */
@@ -928,29 +928,27 @@
 
   .media-text {
     font-size: 0.8rem;
-width: 50%;
-bottom: 27rem;
-left: 22%;
-
+    width: 50%;
+    bottom: 27rem;
+    left: 22%;
   }
 
   .m_l {
     font-size: 1.5rem;
   }
 
-.span-text {
-  left: 25%;
-}
+  .span-text {
+    left: 25%;
+  }
 }
 
-@media(max-width: 26em) {
+@media (max-width: 26em) {
   /* body {
-    background-color: #fff;
+    background-color: green;
   } */
 
   .h1-text {
     font-size: 3rem;
-    width: 100%;
   }
 
   .media-space {
@@ -970,12 +968,12 @@ left: 22%;
     bottom: 28rem;
   }
 
-.span-text {
-  left: 25%;
-}
+  .span-text {
+    left: 25%;
+  }
 }
 
-@media(max-width: 23.25em) {
+@media (max-width: 24em) {
   /* body {
     background-color: red;
   } */
@@ -999,5 +997,9 @@ left: 22%;
 
   .span-text {
     left: 20%;
+  }
+
+  .btn {
+    font-size: 1.3rem;
   }
 }
