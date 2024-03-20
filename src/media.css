@@ -943,10 +943,6 @@
 }
 
 @media (max-width: 26em) {
-  /* body {
-    background-color: green;
-  } */
-
   .h1-text {
     font-size: 3rem;
   }
@@ -971,6 +967,10 @@
   .span-text {
     left: 22%;
     bottom: 27rem;
+  }
+
+  .btn {
+    font-size: 1.3rem;
   }
 }
 
@@ -1000,7 +1000,5 @@
     left: 20%;
   }
 
-  .btn {
-    font-size: 1.3rem;
-  }
+
 }
