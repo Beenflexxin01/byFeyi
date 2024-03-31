@@ -6,14 +6,15 @@
 
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   scroll-behavior: smooth;
+  line-height: 1.8;
 }
 
 body {
   font-family: "Open Sans", sans-serif;
-  line-height: 1.8;
   font-weight: 400;
+  height: 100%;
 }
 
 li {
@@ -36,11 +37,17 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 1rem 7rem;
+  margin: 1rem 0;
   position: sticky;
-  top: -200%;
+  top: 0;
+  bottom: 0;
   z-index: 1;
-  /* background-color: #726666; */
+  /* background-color: #9a9494; */
+  /* margin: 1rem 7rem; */
+}
+
+.logo-img {
+  margin: 0 17rem;
 }
 
 .main-nav-ul {
@@ -50,14 +57,28 @@ li {
   gap: 8rem;
 }
 
-.nav-link {
+.main-nav-li {
+  transition: 0.1s all linear;
+}
+
+.main-nav-li:hover {
+  transform: translate(4%) scale(1.1);
+  /* transform:  scale(1.1); */
+  font-weight: bold;
+}
+
+.nav-link:link,
+.nav-link:visited {
   text-decoration: none;
   font-size: 1.5rem;
   color: #000;
+  /* font-weight: 500; */
+  transition: 0.5s all ease-in-out;
 }
 
 .active {
-  border-bottom: 1px solid #000000;
+  border-bottom: 2px solid #000200;
+  transition: 0.4s all linear;
 }
 
 .burger-menu {
@@ -665,4 +686,15 @@ hr {
 
 .cols {
   margin: 7rem 2rem;
+}
+
+.eng {
+  color: #fff;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.eng-link {
+  color: #d9d9ff;
+  font-weight: bold;
 }

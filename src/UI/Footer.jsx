@@ -32,6 +32,25 @@ function Footer() {
               <NavLink className="nav-link footer-link">TOP</NavLink>
             </p>
           </nav>
+
+          <div className="engineer">
+            <p className="eng">
+              Site Designed By{" "}
+              <Link
+                to="https://www.linkedin.com/in/feyifakz/"
+                target="blank"
+                className="eng-link">
+                Feyi Fakolade
+              </Link>{" "}
+              And Developed By {" "}
+              <Link
+                to="https://www.byfeyi.netlify.app"
+                target="blank"
+                className="eng-link">
+                 Omotayo Adenola.
+              </Link>
+            </p>
+          </div>
         </div>
       </div>
     </>
