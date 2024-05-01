@@ -7,7 +7,7 @@ function ContactPage() {
             LET'S WORK <br /> <span className="t-o">TOGETHER</span>{" "}
           </h1>
           <div className="g-d">
-            <div className="form-block">
+            <div className="form-bloc">
               <p className="txt t-x">
                 I'M OPEN FOR COLLABORATIONS OR JUST A CHAT, LET'S TALK.
               </p>

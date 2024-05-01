@@ -12,6 +12,7 @@ import ArchitectureDesign from "./Components/ArchitectureDesign";
 import Intertiro from "./Components/Intertiro";
 import Product from "./Components/Product";
 import ProjectPage from "./Components/ProjectPage";
+import BlogContents from "./Features/Blogs/BlogContents";
 function App() {
   return (
     <>
@@ -22,6 +23,7 @@ function App() {
             <Route path="home" element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="blog" element={<Blog />} />
+            <Route path="blogs/journals/:id" element={<BlogContents />} />
             <Route path="services" element={<Service />} />
             <Route path="portfolio" element={<Portfolio />} />
             <Route path="contact" element={<Contact />} />

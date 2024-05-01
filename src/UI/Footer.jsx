@@ -1,6 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
 import logo from "../images/logo-w.png";
-
 function Footer() {
   return (
     <>
@@ -11,6 +10,7 @@ function Footer() {
               <NavLink to="/" className="nav-link footer-link"></NavLink>
               <img src={logo} alt="" className="footer-img" />
             </li>
+
             <ul className="main-nav-ul footer-nav-ul">
               <li className="main-nav-li">
                 <NavLink className="nav-link footer-link">INSTAGRAM</NavLink>
@@ -42,12 +42,12 @@ function Footer() {
                 className="eng-link">
                 Feyi Fakolade
               </Link>{" "}
-              And Developed By {" "}
+              And Developed By{" "}
               <Link
                 to="https://www.byfeyi.netlify.app"
                 target="blank"
                 className="eng-link">
-                 Omotayo Adenola.
+                Omotayo Adenola.
               </Link>
             </p>
           </div>

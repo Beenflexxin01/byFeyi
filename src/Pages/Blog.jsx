@@ -1,4 +1,4 @@
-import BlogPage from "../Features/BlogPage";
+import BlogPage from "../Features/Blogs/BlogPage";
 import Footer from "../UI/Footer";
 
 function Blog() {

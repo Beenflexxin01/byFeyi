@@ -17,7 +17,7 @@ function PortfolioPage() {
           </h1>
         </div>
 
-        <div className="grid-2">
+        <div className="grid">
           <div
             className="grid-2-cols p-m"
             onClick={() => Navigate("/architecture")}>

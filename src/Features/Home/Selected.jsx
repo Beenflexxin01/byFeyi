@@ -16,7 +16,7 @@ function Selected() {
           </h1>
         </div>
 
-        <div className="grid-2 ">
+        <div className="grid-">
           <div className="grid-2-cols ">
             <img src={s1} alt="" className="img" />
             <div className="block">
