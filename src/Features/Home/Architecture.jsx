@@ -3,8 +3,8 @@ function Architecture() {
     <>
       <div className="container arch">
         <h1 className="primary-header arc hover">ARCHITECTURE</h1>
-        <h1 className="primary-header hover">INTERIOR DESIGN</h1>
-        <h1 className="primary-header arc hover">PRODUCT DESIGN</h1>
+        <h1 className="primary-header hover">INTERIOR</h1>
+        <h1 className="primary-header arc hover">PRODUCT</h1>
       </div>
       <div className="service s-s">
         <p className="serv">SERVICES</p>
