@@ -752,12 +752,12 @@
 
   .about {
     padding: 2.4rem;
-    margin-top: 35rem;
+    /* margin-top: 25rem; */
   }
 
-  .social-icons {
+  /* .social-icons {
     position: absolute;
-  }
+  } */
 
   .abt {
     margin-top: 0;
