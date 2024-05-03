@@ -17,7 +17,7 @@ function Selected() {
         </div>
 
         <div className="grid-">
-          <div className="grid-2-cols ">
+          <div className=" grid-_2-cols">
             <img src={s1} alt="" className="img" />
             <div className="block">
               <p className="s-t">XI'AN MASTERPLAN</p>
@@ -25,7 +25,7 @@ function Selected() {
             </div>
           </div>
 
-          <div className="grid-2-cols ">
+          <div className=" grid-_2-cols">
             <div className="bloc">
               <p className="s-t">FLOATING HOUSE</p>
               <p className="s-a">INTERIOR DESIGN</p>
@@ -33,7 +33,7 @@ function Selected() {
             <img src={s2} alt="" className="img" />
           </div>
 
-          <div className="grid-2-cols overflow">
+          <div className="grid-_2-cols overflow">
             <img src={s3} alt="" className="img" />
             <div className="block">
               <p className="s-t">SLEEPLESS NIGHTS</p>

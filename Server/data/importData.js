@@ -2,10 +2,10 @@ const fs = require("fs");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const Blog = require("../models/BlogModel");
+const Products= require("../models/ProductListModel");
 
-dotenv.config({ path: "./config.env" });
-// dotenv.config({ path: "./Server/config.env" });
-
+// dotenv.config({ path: "./config.env" });
+dotenv.config({ path: "./Server/config.env" });
 
 const DB = process.env.DATABASE.replace(
   "<password>",
@@ -20,9 +20,15 @@ mongoose
 
 // const blogs = JSON.parse(fs.readFileSync(`${__dirname}/blogs.json`, `utf-8`));
 const blogs = JSON.parse(fs.readFileSync(`${__dirname}/blogs.json`, `utf-8`));
+
+const products = JSON.parse(
+  fs.readFileSync(`${__dirname}/productListData.json`, "utf-8")
+);
+
 const importData = async function () {
   try {
     await Blog.create(blogs);
+    await Products.create(products);
     console.log(
       "Data sucessfully imported! Kindly proceed to your API tester to see the deployed data 😊👌"
     );
@@ -37,6 +43,7 @@ const importData = async function () {
 const deleteData = async function () {
   try {
     await Blog.deleteMany();
+    await Products.deleteMany();
     console.log(
       "Data successfully Deleted! Kindly note that you have no deployed data in your database 🙄🙄"
     );
@@ -44,6 +51,7 @@ const deleteData = async function () {
     console.log(
       "Failed to delete data! Kindly check your internet connection 😪"
     );
+    console.log(err)
   }
   process.exit(1);
 };

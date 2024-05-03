@@ -19,27 +19,29 @@ function PortfolioPage() {
 
         <div className="grid">
           <div
-            className="grid-2-cols p-m"
+            className="grid-_2-cols p-m"
             onClick={() => Navigate("/architecture")}>
             <img src={s1} alt="" className="img" />
             <div className="block">
-              <p className="s-a p-t">ARCHITECTURE DESIGN</p>
+              <p className="s-a p-t">ARCHITECTURE</p>
             </div>
           </div>
 
           <div
-            className="grid-2-cols p-m"
+            className="grid-_2-cols p-m"
             onClick={() => Navigate("/interior")}>
             <div className="p-l bloc">
-              <p className="s-a p-t">INTERIOR DESIGN</p>
+              <p className="s-a p-t">INTERIOR</p>
             </div>
             <img src={s2} alt="" className="img port-img" />
           </div>
 
-          <div className="grid-2-cols p-m" onClick={() => Navigate("/product")}>
+          <div
+            className="grid-_2-cols p-m"
+            onClick={() => Navigate("/product")}>
             <img src={s3} alt="" className="img " />
             <div className="block">
-              <p className="s-a p-t">PRODUCT DESIGN</p>
+              <p className="s-a p-t">PRODUCT</p>
             </div>
           </div>
         </div>

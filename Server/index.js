@@ -5,17 +5,23 @@ const cors = require("cors");
 const path = require("path");
 const app = express();
 const Blog = require("./models/BlogModel");
+const Products = require("./models/ProductListModel");
 app.use(express.json());
 
-app.use(cors({ credentials: true, origin: "http://localhost:5174" }));
+app.use(
+  cors({
+    credentials: true,
+    origin: "http://localhost:5174",
+  })
+);
 
 process.on("UncaughtException", (err) => {
   console.log(err.message);
   console.log("UNCAUGHT EXCEPTION ... SHUTTING DOWN NOW!");
 });
 
-dotenv.config({ path: "./Server/config.env" });
-// dotenv.config({ path: "./config.env" });
+// dotenv.config({ path: "./Server/config.env" });
+dotenv.config({ path: "./config.env" });
 
 const DB = process.env.DATABASE.replace(
   "<password>",
@@ -59,6 +65,27 @@ app.get("/api/blogs/:id", async (req, res) => {
   } catch (err) {
     console.log(err);
     res.status(500).send("Server Error");
+  }
+});
+
+app.get("/api/products", async (req, res) => {
+  try {
+    const products = await Products.find();
+
+    res.json(products);
+  } catch (err) {
+    console.log(err);
+  }
+});
+
+app.get("/api/products/:id", async (req, res) => {
+  try {
+    const { id } = req.params;
+    const products = await Products.findById(id);
+
+    res.json(products);
+  } catch (err) {
+    console.log(err);
   }
 });
 
