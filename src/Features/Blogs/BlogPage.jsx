@@ -5,7 +5,7 @@ import BlogData from "./BlogData";
 function BlogPage() {
   const [blogData, setBlogData] = useState([]);
 
-  const blogApi = "https://byfeyi-server.vercel.app/"
+  const blogApi = "https://byfeyi-server.vercel.app"
 
   useEffect(function () {
     async function getBlogData() {
