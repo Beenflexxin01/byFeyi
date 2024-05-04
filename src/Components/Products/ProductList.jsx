@@ -11,7 +11,11 @@ const ProductDetails = ({ product }) => {
         className="grid-4-cols pointer"
         onClick={() => navigate(`/productPage/${productId}`)}>
         <div>
-          <img src={image} alt={title} className="grid-4-image" />
+          <img
+            src={`../../../public/${image}.jpeg`}
+            alt={title}
+            className="grid-4-image"
+          />
           <div className="cart-detail-btn"></div>
           <div className="text-align">
             <p className="text-description product-text desc">{title}</p>
