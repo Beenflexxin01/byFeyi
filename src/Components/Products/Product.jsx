@@ -2,8 +2,6 @@ import { useEffect, useState } from "react";
 import ProductList from "./ProductList";
 import Footer from "../../UI/Footer";
 import BackendLink from "../../utils/BackendLink";
-// import FilterOperation from "./OperationFilter";
-// import OperationSort from "./OperationSort";
 
 function Products({ addProductToCart, products }) {
   const [product, setProducts] = useState([]);
