@@ -12,7 +12,7 @@ const ProductDetails = ({ product }) => {
         onClick={() => navigate(`/productPage/${productId}`)}>
         <div>
           <img
-            src={`../../../public/${image}.jpeg`}
+            src={`${image}`}
             alt={title}
             className="grid-4-image"
           />
