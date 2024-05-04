@@ -5,10 +5,12 @@ import BlogData from "./BlogData";
 function BlogPage() {
   const [blogData, setBlogData] = useState([]);
 
+  const blogApi = "https://byfeyi-server.vercel.app/"
+
   useEffect(function () {
     async function getBlogData() {
       try {
-        const res = await fetch("http://localhost:8000/api/blogs");
+        const res = await fetch(`${blogApi}/api/blogs`);
         if (!res.ok) {
           throw new Error(
             "Something went wrong while trying to load blog datas ❌❌"
