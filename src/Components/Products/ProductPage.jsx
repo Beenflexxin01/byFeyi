@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import Footer from "../../UI/Footer";
 import Loader from "../../UI/Loader";
+import BackendLink from "../../utils/BackendLink";
+
 // import OtherProducts from "../../UI/ProductCollections";
 // import CartFunction from "../../UI/CartFunction";
 
@@ -25,7 +27,7 @@ function ProductPage({ cart, setCart }) {
     function () {
       async function getProductDetails() {
         try {
-          const res = await fetch(`http://localhost:8000/api/products/${id}`);
+          const res = await fetch(`${BackendLink}/api/products/${id}`);
           if (!res.ok)
             throw new Error(
               "Something went wrong while loading the blogs from the database."

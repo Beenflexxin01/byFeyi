@@ -1,16 +1,16 @@
 import a1 from "../../images/f52.jpeg";
 import { useEffect, useState } from "react";
 import BlogData from "./BlogData";
-
+import  BackendLink  from "../../utils/BackendLink";
 function BlogPage() {
   const [blogData, setBlogData] = useState([]);
 
-  const blogApi = "https://byfeyi-server.vercel.app"
+  // const blogApi = "https://byfeyi-server.vercel.app";
 
   useEffect(function () {
     async function getBlogData() {
       try {
-        const res = await fetch(`${blogApi}/api/blogs`);
+        const res = await fetch(`${BackendLink}/api/blogs`);
         if (!res.ok) {
           throw new Error(
             "Something went wrong while trying to load blog datas ❌❌"

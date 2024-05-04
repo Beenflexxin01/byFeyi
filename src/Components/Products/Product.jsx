@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import ProductList from "./ProductList";
 import Footer from "../../UI/Footer";
+import BackendLink from "../../utils/BackendLink";
 // import FilterOperation from "./OperationFilter";
 // import OperationSort from "./OperationSort";
 
@@ -10,7 +11,7 @@ function Products({ addProductToCart, products }) {
   useEffect(function () {
     async function getProductList() {
       try {
-        const res = await fetch("http://localhost:8000/api/products");
+        const res = await fetch(`${BackendLink}/api/products`);
         if (!res.ok)
           throw new Error(
             "Something went wrong while loading the products from the database."
