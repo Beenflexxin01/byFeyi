@@ -12,7 +12,8 @@ const ProductDetails = ({ product }) => {
         onClick={() => navigate(`/productPage/${productId}`)}>
         <div>
           <img
-            src={`${image}`}
+            // src={`${image}`}
+            src={image}
             alt={title}
             className="grid-4-image"
           />

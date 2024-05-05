@@ -7,7 +7,7 @@ import BackendLink from "../../utils/BackendLink";
 // import OtherProducts from "../../UI/ProductCollections";
 // import CartFunction from "../../UI/CartFunction";
 
-function ProductPage({ cart, setCart }) {
+function ProductPage() {
   const [product, setProductData] = useState({});
 
   const [isLoading, setIsLoading] = useState();
@@ -15,7 +15,6 @@ function ProductPage({ cart, setCart }) {
   const { id } = useParams();
   const {
     title,
-
     image,
     description,
     paymentOption,
