@@ -468,7 +468,7 @@ hr {
 
 .footer {
   background-color: #000;
-  margin-top: 14rem;
+  margin-top: 10rem;
   padding: 2rem;
 }
 
@@ -533,7 +533,7 @@ hr {
 
 .h1-img {
   width: 100%;
-  height: 70vh;
+  height: 95vh;
 }
 
 .image {
@@ -655,7 +655,7 @@ hr {
 }
 
 .arc-h1 {
-  top: 25%;
+  top: 18%;
 }
 
 .arc-design {
@@ -685,7 +685,7 @@ hr {
 }
 
 .grid-margin {
-  margin: 3rem;
+  margin: 3rem 6rem;
 }
 
 .p-img {
@@ -705,15 +705,16 @@ hr {
 }
 
 .grid-3-img {
+  height: 35vh;
   width: 100%;
-  height: 30rem;
-  height: 60vh;
   transition: all 0.3s linear;
+  border-radius: 9px;
 }
 
 .grid-3-img:hover,
 .grid-3-img:active {
   transform: scale(1.05);
+  border-radius: 15px;
 }
 
 .grid-4-txt {
@@ -861,7 +862,7 @@ hr {
   opacity: 100%;
 }
 
-.grid-4 {
+/* .grid-4 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
@@ -869,7 +870,7 @@ hr {
 .grid-4-cols {
   margin: 1.5rem 1rem 1rem 0;
   overflow: hidden;
-}
+} */
 
 .pointer {
   cursor: pointer;
@@ -907,13 +908,20 @@ hr {
 
 .grid-4-image {
   height: 40vh;
-  width: 90%;
+  width: 70%;
   border-radius: 9px;
   transition: all 0.8s ease-in-out;
 }
 
+.grid-4-image:hover,
+.grid-4-image:active {
+  transform: scale(1.05);
+  border-radius: 15px;
+}
+
 .product-text {
-  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
 .btn-arr {
@@ -933,3 +941,32 @@ hr {
   cursor: pointer;
 }
 
+.grid-2-cols {
+  margin: 4rem;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.pro {
+  height: 70vh;
+}
+
+.m-h {
+  top: 20%;
+  margin: 0;
+}
+
+.pr:hover {
+  color: #000;
+}
+
+.pr {
+  margin-top: 4rem;
+  text-align: end;
+}
+
+.products {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 3rem;
+}

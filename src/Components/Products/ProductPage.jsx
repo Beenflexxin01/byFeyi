@@ -1,9 +1,8 @@
 import { useState, useEffect } from "react";
-import { Link, useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import Footer from "../../UI/Footer";
 import Loader from "../../UI/Loader";
 import BackendLink from "../../utils/BackendLink";
-
 // import OtherProducts from "../../UI/ProductCollections";
 // import CartFunction from "../../UI/CartFunction";
 
@@ -15,11 +14,12 @@ function ProductPage() {
   const { id } = useParams();
   const {
     title,
+    titleBreak,
     image,
     description,
-    paymentOption,
-    quantity,
-    color,
+    date: projectDate,
+    projectType,
+    tools, tool, dat, details, desc, clothing
   } = product;
 
   useEffect(
@@ -50,64 +50,50 @@ function ProductPage() {
 
   return (
     <>
-      <div className="grid-2 product--grid">
+      <div className="">
         {isLoading ? (
           <Loader />
         ) : (
           <>
-            <div className="grid-2-cols checkout-grid product-grid">
-              <button className="btn-arr" onClick={() => navigate("/product")}>
-                &larr; Back
-              </button>
-              <div className="product-img">
-                <img src={image} alt={title} className="product-image" />
-              </div>
-
-              <div className="img-grid"></div>
+            <div className="image">
+              <img src={image} alt="" className="h1-img" />
             </div>
-            <div className="grid-2-cols checkout-grid product-grid ">
-              <div className="prod">
-                {/* <p className="text-descriptions">{defaultText}</p> */}
-                <h2 className="secondary-header">{title}</h2>
-                <p className="text-description desc">{description}</p>
-                <div className="price-group">
-                  {/* <p className="text-description desc">${price}.00 USD</p> */}
-                  {/* <p className="text-description strike">
-                  <s>{oldPrice}</s>
-                </p>
-                <p className="text-descriptions">{soldOut}</p>
-                <p className="text-descriptions sale">{sale}</p> */}
-                </div>
-                {/* <p className="text-descriptions">
-                <Link to="https://fiveteenstudios.com/policies/shipping-policy">
-                  Shipping
-                </Link>{" "}
-                {shipPrice}
-              </p>
-              <p className="text-descriptions">Size</p>
-              <div className="product-size">
-                <p className="text-description desc">{size}</p>
-              </div> */}
-
-                <div>
-                  <span className="color">{color}</span>
+            <div className="h1 arc-h1 m-h">
+              <h1 className="primary-header media-header">
+                {title} <br />{" "}
+                <span className="arc prod-design">{titleBreak}</span>
+              </h1>
+            </div>
+            <div className="container products">
+              <div className="grid--2 grid-block">
+                <div className="grid-2--cols grid-margin">
+                  <h3 className="tertiary-header">{details}</h3>
+                  <div className="details">
+                    <p className="details-text">{dat}</p>
+                    <p className="details-text">{projectDate}</p>
+                  </div>
+                  <div className="details">
+                    <p className="details-text">{projectType}</p>
+                      <p className="details-text">{ clothing}</p>
+                  </div>
+                  <div className="details">
+                    <p className="details-text">{tool}</p>
+                    <p className="details-text">{tools}</p>
+                  </div>
                 </div>
 
-                <p className="text-descriptions">{quantity}</p>
-
-                {/* <CartFunction product={product} cart={cart} setCart={setCart} /> */}
-
-                <div className="payment-link">
-                  <Link to="" className="text-descriptions nav-link">
-                    {paymentOption}
-                  </Link>
+                <div className="grid-2--cols grid-margin">
+                  <h3 className="tertiary-header">{desc}</h3>
+                  <p className="details-text">{description}</p>
                 </div>
               </div>
+              <p className="port-text pr" onClick={() => navigate("/product")}>
+                Back to Product Lists
+              </p>
             </div>
           </>
         )}
       </div>
-      {/* <OtherProducts /> */}
       <Footer />
     </>
   );

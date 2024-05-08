@@ -3,27 +3,17 @@ import { useNavigate } from "react-router-dom";
 
 const ProductDetails = ({ product }) => {
   const navigate = useNavigate();
-  const { image, _id: productId, title } = product;
+  const { image, _id: productId, title, titleBreak } = product;
 
   return (
     <>
       <div
-        className="grid-4-cols pointer"
+        className="grid-2-cols"
         onClick={() => navigate(`/productPage/${productId}`)}>
-        <div>
-          <img
-            // src={`${image}`}
-            src={image}
-            alt={title}
-            className="grid-4-image"
-          />
-          <div className="cart-detail-btn"></div>
-          <div className="text-align">
-            <p className="text-description product-text desc">{title}</p>
-
-            {/* <p className="text-description product-text desc">${price}.00 USD</p> */}
-          </div>
-        </div>
+        <img src={image} alt={title} className="grid-4-image" />
+        <p className="text-description product-text desc">
+          {title} {titleBreak}
+        </p>
       </div>
     </>
   );

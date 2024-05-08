@@ -1,11 +1,13 @@
+import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import ProductList from "./ProductList";
 import Footer from "../../UI/Footer";
 import BackendLink from "../../utils/BackendLink";
+import a1 from "../../images/a1.png";
 
 function Products({ addProductToCart, products }) {
   const [product, setProducts] = useState([]);
-
+  const Navigate = useNavigate();
   useEffect(function () {
     async function getProductList() {
       try {
@@ -26,10 +28,21 @@ function Products({ addProductToCart, products }) {
 
   return (
     <>
+      <div className="image">
+        <img src={a1} alt="" className="h1-img pro" />
+      </div>
+      <div className="h1 arc-h1">
+        <h1 className="primary-header media-header">
+          PRODUCT <br /> <span className="arc prod-design">DESIGN</span>
+        </h1>
+        <p className="port-text" onClick={() => Navigate("/portfolio")}>
+          Back to Portfolio
+        </p>
+      </div>
       <div className="container">
-        <h1 className="primary-header h1">Products</h1>
+        {/* <h1 className="primary-header h1">Products</h1> */}
 
-        <div className="grid-4">
+        <div className="grid-2">
           {product &&
             product.map(function (product) {
               return (

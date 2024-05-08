@@ -166,43 +166,6 @@ function BlogContents() {
         )}
       </div>
       <>
-        <div className="collections blog-collection ">
-          <div className="blog-form blog-container">
-            <h2 className="secondary-header blog--margin">Leave a comment</h2>
-            <form action="">
-              <ul className="form-ul">
-                <li className="form-block">
-                  <input
-                    type="text"
-                    name="name"
-                    placeholder="Name"
-                    required
-                    className="input-contact-2 input-payment"
-                  />
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Email"
-                    required
-                    className="input-contact-2 input-email input-payment"
-                  />
-                </li>
-
-                <li className="form-li">
-                  <textarea
-                    name="comment"
-                    id="comment"
-                    placeholder="Comment *"
-                    required
-                    className="input-contact input-blog input-payment textarea"></textarea>
-                </li>
-              </ul>
-              <button className=" btn-sign-in blog--margin">
-                Post comment
-              </button>
-            </form>
-          </div>
-        </div>
         <Footer />
       </>
     </>
