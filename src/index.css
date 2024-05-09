@@ -708,7 +708,11 @@ hr {
   height: 35vh;
   width: 100%;
   transition: all 0.3s linear;
-  border-radius: 9px;
+  border-radius: 4rem;
+}
+
+.pub {
+  margin: 0 2rem;
 }
 
 .grid-3-img:hover,
@@ -909,7 +913,7 @@ hr {
 .grid-4-image {
   height: 40vh;
   width: 70%;
-  border-radius: 9px;
+  border-radius: 4rem;
   transition: all 0.8s ease-in-out;
 }
 

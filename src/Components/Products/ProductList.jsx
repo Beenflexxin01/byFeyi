@@ -7,13 +7,15 @@ const ProductDetails = ({ product }) => {
 
   return (
     <>
-      <div
-        className="grid-2-cols"
-        onClick={() => navigate(`/productPage/${productId}`)}>
-        <img src={image} alt={title} className="grid-4-image" />
-        <p className="text-description product-text desc">
-          {title} {titleBreak}
-        </p>
+      <div className="container blogs">
+        <div
+          className="grid-3-cols"
+          onClick={() => navigate(`/productPage/${productId}`)}>
+          <img src={image} alt={title} className="grid-3-img" />
+          <p className="text-description product-text desc">
+            {title} {titleBreak}
+          </p>
+        </div>
       </div>
     </>
   );

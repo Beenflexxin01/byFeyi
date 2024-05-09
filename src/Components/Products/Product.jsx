@@ -39,22 +39,20 @@ function Products({ addProductToCart, products }) {
           Back to Portfolio
         </p>
       </div>
-      <div className="container">
-        {/* <h1 className="primary-header h1">Products</h1> */}
+      {/* <h1 className="primary-header h1">Products</h1> */}
 
-        <div className="grid-2">
-          {product &&
-            product.map(function (product) {
-              return (
-                <ProductList
-                  key={product._id}
-                  product={product}
-                  products={products}
-                  addProductToCart={addProductToCart}
-                />
-              );
-            })}
-        </div>
+      <div className="grid-3">
+        {product &&
+          product.map(function (product) {
+            return (
+              <ProductList
+                key={product._id}
+                product={product}
+                products={products}
+                addProductToCart={addProductToCart}
+              />
+            );
+          })}
       </div>
       <Footer />
     </>
