@@ -9,7 +9,7 @@ function MainNav() {
   return (
     <nav className="main-nav">
       <div className="logo-img">
-        <NavLink to="/">
+        <NavLink to="/" id="home">
           <img src={logo} alt="logo" />
         </NavLink>
       </div>

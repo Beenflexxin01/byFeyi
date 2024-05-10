@@ -1,5 +1,6 @@
+import { Link } from "react-router-dom";
 import feyi from "../../images/feyi.png";
-import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaInstagram } from "react-icons/fa";
 
 function MainPage() {
   return (
@@ -25,9 +26,18 @@ function MainPage() {
         </div>
       </div>
       <div className="social-icons">
-        <FaInstagram size={"24px"} className="icons" />
-        <FaFacebook size={"24px"} className="icons" />
-        <FaTwitter size={"24px"} className="icons" />
+        <Link
+          to="https://www.instagram.com/byfeyifakolade/"
+          target="blank"
+          className="icon-link">
+          <FaInstagram size={"24px"} className="icons" />
+        </Link>
+        <Link
+          to="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAABd9shkBMew87EuBY_o5Uletdq3zKMcpWzo&keywords=feyi%20fakolade&origin=RICH_QUERY_SUGGESTION&position=0&searchId=95f065bd-70e9-4e7f-aed3-91bf7807647d&sid=Hk0&spellCorrectionEnabled=false"
+          target="blank"
+          className="icon-link">
+          <FaLinkedin size={"24px"} className="icons" />
+        </Link>
       </div>
     </>
   );

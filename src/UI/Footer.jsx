@@ -29,7 +29,11 @@ function Footer() {
               </li>
             </ul>
             <p className="main-nav-li">
-              <NavLink className="nav-link footer-link">TOP</NavLink>
+              <NavLink
+                className="nav-link footer-link"
+                onclick="window.scrollTo(1,1)">
+                TOP
+              </NavLink>
             </p>
           </nav>
 

@@ -111,12 +111,28 @@ li {
   flex-direction: column;
   gap: 1rem;
   margin: 4rem 8rem;
+  width: 3%;
+}
+
+.icon-link {
+  color: #fff;
 }
 
 .icons {
-  border: 1px solid #000;
+  border: 1px solid #fff;
   border-radius: 9px;
-  padding: 0.2rem;
+  padding: 0.4rem;
+  height: 3rem;
+  width: 3rem;
+  background-color: #000;
+  transition: all 0.3s linear;
+}
+
+.icons:hover,
+.icons:active {
+  background-color: transparent;
+  color: #000;
+  transform: scale(1.01);
 }
 
 .flex {
@@ -740,6 +756,14 @@ hr {
 .blog-header {
   font-size: 5rem;
   margin: 3rem 5rem;
+}
+
+.blg {
+  margin-left: 7rem;
+}
+
+.bgg {
+  top: 30%;
 }
 
 .grid-3-cols {

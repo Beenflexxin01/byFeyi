@@ -1,4 +1,4 @@
-import a1 from "../../images/f52.jpeg";
+import a1 from "../../images/f53.jpeg";
 import { useEffect, useState } from "react";
 import BlogData from "./BlogData";
 import BackendLink from "../../utils/BackendLink";
@@ -30,6 +30,11 @@ function BlogPage() {
     <>
       <div className="image">
         <img src={a1} alt="" className="h1-img" />
+        <div className="h1 arc-h1 bgg">
+          <h1 className="primary-header">
+            A <br /> <span className="arc blg">CASE STUDY*</span>
+          </h1>
+        </div>
       </div>
 
       <>

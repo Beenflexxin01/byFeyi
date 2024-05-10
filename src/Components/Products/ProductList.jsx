@@ -12,9 +12,11 @@ const ProductDetails = ({ product }) => {
           className="grid-3-cols"
           onClick={() => navigate(`/productPage/${productId}`)}>
           <img src={image} alt={title} className="grid-3-img" />
-          <p className="text-description product-text desc">
-            {title} {titleBreak}
-          </p>
+          <div className="pub">
+            <p className="text-description product-text desc">
+              {title} {titleBreak}
+            </p>
+          </div>
         </div>
       </div>
     </>
