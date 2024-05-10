@@ -11,6 +11,7 @@ function BlogContents() {
 
   const {
     title,
+    titleBreak,
     image,
     publishedDate,
     symbol,
@@ -81,7 +82,9 @@ function BlogContents() {
           <>
             <img src={image} alt={title} className="blog-image" />
             <div className="blog-content ">
-              <h2 className="primary-header h2">{title}</h2>
+              <h2 className="primary-header h2">
+                {title} {titleBreak}
+              </h2>
               <div className="design-div grid-4-txt">
                 <p className=" blog-description blog-texts">{publishedDate}</p>
                 <li className=" blog-description blog-texts blog-li">
