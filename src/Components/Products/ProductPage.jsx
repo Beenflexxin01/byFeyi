@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import Footer from "../../UI/Footer";
 import Loader from "../../UI/Loader";
 import BackendLink from "../../utils/BackendLink";
@@ -19,7 +19,12 @@ function ProductPage() {
     description,
     date: projectDate,
     projectType,
-    tools, tool, dat, details, desc, clothing
+    tools,
+    tool,
+    dat,
+    details,
+    desc,
+    clothing,
   } = product;
 
   useEffect(
@@ -45,8 +50,6 @@ function ProductPage() {
     },
     [id]
   );
-
-  const navigate = useNavigate();
 
   return (
     <>
@@ -74,7 +77,7 @@ function ProductPage() {
                   </div>
                   <div className="details">
                     <p className="details-text">{projectType}</p>
-                      <p className="details-text">{ clothing}</p>
+                    <p className="details-text">{clothing}</p>
                   </div>
                   <div className="details">
                     <p className="details-text">{tool}</p>
@@ -87,9 +90,14 @@ function ProductPage() {
                   <p className="details-text">{description}</p>
                 </div>
               </div>
-              <p className="port-text pr" onClick={() => navigate("/product")}>
-                Back to Product Lists
-              </p>
+
+              <div className="blog-margin">
+                <p className="blog--link port-text pr">
+                  <Link to="/product" className=" blog-link port-text pr">
+                    &larr; Back to Product Lists
+                  </Link>
+                </p>
+              </div>
             </div>
           </>
         )}

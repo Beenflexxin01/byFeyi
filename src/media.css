@@ -460,7 +460,8 @@
     height: 70vh;
   }
 
-  .grid-2-cols {
+  .grid-2-cols,
+  .grid-_2-cols {
     display: grid;
     grid-template-columns: 1fr;
     margin: 2rem;
@@ -793,7 +794,7 @@
   }
 
   .primary-header {
-    font-size: 2.5rem;
+    font-size: 4rem;
   }
 
   .media-header {
@@ -821,7 +822,17 @@
   }
 
   .arc-h1 {
-    top: 28%;
+    top: 17%;
+  }
+
+  .bgg {
+    top: 35%;
+  }
+
+  .details-text,
+  .text-description,
+  .text-desc {
+    font-size: 1.3rem;
   }
 
   /* .port-text {
