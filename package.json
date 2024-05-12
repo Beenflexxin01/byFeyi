@@ -7,6 +7,8 @@
     "dev": "vite",
     "start": "nodemon ./Server/index.js",
     "build": "vite build",
+    "data-import": "node ./Server/data/importData --import",
+    "data-delete": "node ./Server/data/importData --delete",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
