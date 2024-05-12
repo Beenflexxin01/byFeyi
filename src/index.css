@@ -25,7 +25,11 @@ li {
   font-size: 4rem;
   text-align: center;
   width: 50%;
-  margin: 13rem auto;
+  margin: auto;
+}
+
+.page {
+  margin: 15% auto;
 }
 
 .loader {

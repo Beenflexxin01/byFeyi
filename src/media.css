@@ -408,6 +408,14 @@
     background-color: rgb(164, 48, 121);
   } */
 
+  .page-header {
+    font-size: 3rem;
+  }
+
+  .page {
+    margin: 25% auto;
+  }
+
   .h1-text {
     font-size: 6.3rem;
   }
@@ -677,13 +685,18 @@
     align-items: baseline;
   }
 
-  .footer-link {
-    font-size: 1.5rem;
+  .footer-link:link,
+  .footer-link:visited {
+    font-size: 1.3rem;
   }
 
   .footer-img {
     width: 70%;
     height: 20%;
+  }
+
+  .eng {
+    font-size: 1.2rem;
   }
 }
 
@@ -691,6 +704,10 @@
   /* body {
     background-color: #ea9e9e;
   } */
+
+  .page-header {
+    font-size: 1.8rem;
+  }
 
   html {
     overflow-x: hidden;
