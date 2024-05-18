@@ -14,10 +14,14 @@ import ProjectPage from "./Components/ProjectPage";
 import BlogContents from "./Features/Blogs/BlogContents";
 import Product from "./Components/Products/Product";
 import ProductPage from "./Components/Products/ProductPage";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 function App() {
   return (
     <>
       <BrowserRouter>
+        <ToastContainer />
         <Routes>
           <Route element={<AppLayout />}>
             <Route index element={<Navigate replace to="home" />} />
