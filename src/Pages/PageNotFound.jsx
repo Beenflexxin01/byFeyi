@@ -1,4 +1,4 @@
-import Footer from "../ui/Footer";
+import Footer from "../UI/Footer";
 
 function PageNotFound() {
   return (
