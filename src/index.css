@@ -199,14 +199,13 @@ hr {
 
 .btn {
   background-color: #d9d9d9;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   font-size: 1.6rem;
   padding: 5rem 0.5rem;
   text-align: center;
-  margin: 4rem 44%;
+  margin: 2rem 45%;
   transition: 0.3s all linear;
   cursor: pointer;
-  rotate: -20deg;
   color: #000;
   font-weight: 700;
 }
@@ -226,7 +225,7 @@ hr {
   height: 55rem;
   width: 26%;
   padding: 4rem;
-  margin: 6rem auto;
+  margin: 6rem auto 0;
 }
 
 .case-header {
@@ -358,9 +357,7 @@ hr {
 }
 
 .see:hover,
-.see:active,
-.submit:hover,
-.submit:active {
+.see:active {
   transform: scale(1.06) rotate(-15deg);
 }
 
@@ -476,14 +473,16 @@ hr {
 .submit {
   background-color: #000;
   color: #fff;
-  padding: 3rem 2rem;
-  border-radius: 50%;
-  text-align: center;
-  margin: 0 25rem;
+  padding: 1rem;
   cursor: pointer;
   font-weight: bold;
+  width: 40%;
   transition: 0.3s all linear;
-  rotate: -20deg;
+}
+
+.submit:hover,
+.submit:active {
+  transform: scale(1.01);
 }
 
 .footer {

@@ -1,11 +1,11 @@
-import Services from "../Features/Services";
-import Footer from "../UI/Footer";
+// import Services from "../Features/Services";
+// import Footer from "../UI/Footer";
 
 function Service() {
   return (
     <div>
-          <Services />
-          <Footer />
+      {/* <Services />
+          <Footer /> */}
     </div>
   );
 }

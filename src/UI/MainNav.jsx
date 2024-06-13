@@ -37,14 +37,14 @@ function MainNav() {
               ABOUT
             </NavLink>
           </li>
-          <li className="main-nav-li">
+          {/* <li className="main-nav-li">
             <NavLink
               className="nav-link"
               to="/services"
               onClick={toggleOffMenuBar}>
               SERVICES
             </NavLink>
-          </li>
+          </li> */}
           <li className="main-nav-li">
             <NavLink
               className="nav-link"
@@ -53,11 +53,11 @@ function MainNav() {
               PORTFOLIO
             </NavLink>
           </li>
-          <li className="main-nav-li">
+          {/* <li className="main-nav-li">
             <NavLink className="nav-link" to="/blog" onClick={toggleOffMenuBar}>
               BLOG
             </NavLink>
-          </li>
+          </li> */}
           <li className="main-nav-li">
             <NavLink
               className="nav-link"

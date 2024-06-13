@@ -1,19 +1,20 @@
 import { useNavigate } from "react-router-dom";
-import s1 from "../images/a1.png";
+
+// import s1 from "../images/a1.png";
 
 function Services() {
   const navigate = useNavigate();
   return (
     <>
-      <div className="image">
+      {/* <div className="image">
         <img src={s1} alt="" className="h1-img" />
-      </div>
+      </div> */}
       <div className="container">
-        <div className="h1 arc-h1">
+        {/* <div className="h1 arc-h1">
           <h1 className="primary-header media-header">
             SERVICE <br /> <span className="arc">OFFERINGS</span>{" "}
           </h1>
-        </div>
+        </div> */}
         <p className="text-description abt-text">
           <span className="span spn">OUR VALUES</span> Feyi Fakolade embodies
           creativity and versatility as a designer. Specializing in
@@ -39,6 +40,12 @@ function Services() {
       <div className="service s-s">
         <p className="serv">SERVICES</p>
         <p className="serv serv-btn">GET A PROPOSAL</p>
+      </div>
+
+      <div className="moving mov">
+        <button className="move move-btn" onClick={() => navigate("/current")}>
+          CLICK HERE TO SEE ALL I'M CURRENTLY BUILDING
+        </button>
       </div>
     </>
   );

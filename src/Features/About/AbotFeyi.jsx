@@ -1,7 +1,5 @@
-import { useNavigate } from "react-router-dom";
 import s1 from "../../images/a1.png";
 function AbotFeyi() {
-  const Navigate = useNavigate();
   return (
     <>
       <div className="image">
@@ -36,12 +34,6 @@ function AbotFeyi() {
           </p>
         </div>
         <h2 className="case-header span-text spn">CASE STUDY*</h2>
-      </div>
-
-      <div className="moving mov">
-        <button className="move move-btn" onClick={() => Navigate("/current")}>
-          CLICK HERE TO SEE ALL I'M CURRENTLY BUILDING
-        </button>
       </div>
     </>
   );

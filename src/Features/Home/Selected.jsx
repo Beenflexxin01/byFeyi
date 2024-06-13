@@ -42,10 +42,10 @@ function Selected() {
           </div>
         </div>
         <div className="see">SEE ALL</div>
-        <div className="port-serv">
+        {/* <div className="port-serv">
           <p className="serv">BLOGS</p>
           <p className="serv">SEE ALL BLOGS</p>
-        </div>
+        </div> */}
       </div>
     </>
   );
