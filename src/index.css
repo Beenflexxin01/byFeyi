@@ -199,15 +199,15 @@ hr {
 
 .btn {
   background-color: #d9d9d9;
-  /* border-radius: 50%; */
+  border-radius: 9rem;
   font-size: 1.6rem;
-  padding: 5rem 0.5rem;
+  padding: 1rem 2rem;
   text-align: center;
-  margin: 2rem 45%;
+  margin: 2rem 39%;
   transition: 0.3s all linear;
   cursor: pointer;
   color: #000;
-  font-weight: 700;
+  width: 20%;
 }
 
 .btn:hover,
@@ -344,21 +344,24 @@ hr {
 }
 
 .see {
-  background-color: #000;
-  color: #fff;
   border-radius: 90rem;
   padding: 4rem 0;
   text-align: center;
   margin: 4rem auto;
-  width: 8%;
+  width: 20%;
   font-size: 1.8rem;
   transition: 0.3s all linear;
   cursor: pointer;
+  background-color: #e4e4e4;
+  color: #000;
+  padding: 0.5rem 2rem;
+  border-radius: 9rem;
+  font-size: 1.6rem;
 }
 
 .see:hover,
 .see:active {
-  transform: scale(1.06) rotate(-15deg);
+  transform: scale(1.06);
 }
 
 .blog {
@@ -471,13 +474,16 @@ hr {
 }
 
 .submit {
-  background-color: #000;
-  color: #fff;
-  padding: 1rem;
+  border: none;
+  outline: none;
+  color: #000;
   cursor: pointer;
-  font-weight: bold;
   width: 40%;
   transition: 0.3s all linear;
+  background-color: #e4e4e4;
+  padding: 1rem 2rem;
+  border-radius: 9rem;
+  font-size: 1.6rem;
 }
 
 .submit:hover,
@@ -532,10 +538,8 @@ hr {
 }
 
 .view {
-  color: #fff;
-  background: #000;
-  font-size: 1.3rem;
-  font-weight: bold;
+  border: none;
+  outline: none;
 }
 
 .move-btn {
