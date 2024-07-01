@@ -446,6 +446,11 @@ hr {
   text-align: justify;
 }
 
+.mail {
+  color: #000;
+  text-decoration: none;
+}
+
 .t-x {
   width: 70%;
 }
@@ -656,6 +661,10 @@ hr {
 .arc-img {
   height: 100%;
   width: 100%;
+}
+
+.th {
+  height: 40rem;
 }
 
 .port-text {
@@ -974,6 +983,7 @@ hr {
 
 .prodd {
   cursor: pointer;
+  margin-left: 10rem;
 }
 
 .grid-2-cols {

@@ -2,6 +2,7 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 import { toast } from "react-toastify";
+import { Link } from "react-router-dom";
 
 function ContactPage() {
   const form = useRef();
@@ -44,8 +45,19 @@ function ContactPage() {
               <p className="txt t-x">
                 I'M OPEN FOR COLLABORATIONS OR JUST A CHAT, LET'S TALK.
               </p>
-              <p className="txt">CELL: +1 8259457181</p>
-              <p className="txt">SAY HI: feyifakolade@gmail.com</p>
+              <p className="txt">
+                CELL:{" "}
+                <Link to="tel:+1 8259457181" className="mail">
+                  +1 8259457181
+                </Link>
+              </p>
+
+              <p className="txt">
+                SAY HI: {""}
+                <Link to="mailto:feyifakolade@gmail.com" className="mail">
+                  feyifakolade@gmail.com
+                </Link>
+              </p>
             </div>
 
             <div className="form">
@@ -66,7 +78,6 @@ function ContactPage() {
                         type="email"
                         placeholder="EMAIL"
                         name="user_email"
-
                         required
                         className="input"
                       />

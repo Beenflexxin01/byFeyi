@@ -1,10 +1,11 @@
 import a1 from "../images/a1.png";
-import arc1 from "../images/s1.png";
-import arc2 from "../images/arc 1.png";
-import arc3 from "../images/arc 2.png";
-import arc4 from "../images/arc3.png";
-import arc5 from "../images/arc 4.png";
-import arc6 from "../images/arc 5.png";
+import arc1 from "../../public/kiddies/k1.jpg";
+import arc2 from "../../public/commercial/c4.jpg";
+import arc3 from "../../public/pavillion/pa1.jpg";
+import arc4 from "../../public/treehouse/t1.jpg";
+import arc5 from "../../public/park/p1.jpg";
+import arc6 from "../../public/makoko/m1.jpg";
+
 import Footer from "../UI/Footer";
 import { Link, useNavigate } from "react-router-dom";
 function ArchitectureDesign() {
@@ -30,32 +31,42 @@ function ArchitectureDesign() {
             className="grid-2--cols cursor"
             onClick={() => Navigate("/product/project")}>
             <img src={arc1} alt="" className="arc-img" />
-            <p className="text-description text-desc">PROJECT TITLE</p>
+            <p className="text-description text-desc">KIDDIES CENTER</p>
           </div>
 
-          <div className="grid-2--cols cursor">
+          <div
+            className="grid-2--cols cursor"
+            onClick={() => Navigate("/product/project")}>
             <img src={arc2} alt="" className="arc-img" />
-            <p className="text-description text-desc">PROJECT TITLE</p>
+            <p className="text-description text-desc">COMMERCIAL</p>
           </div>
 
-          <div className="grid-2--cols cursor">
-            <img src={arc3} alt="" className="arc-img" />
-            <p className="text-description text-desc">PROJECT TITLE</p>
+          <div
+            className="grid-2--cols cursor"
+            onClick={() => Navigate("/product/project")}>
+            <img src={arc3} alt="" className="arc-img th" />
+            <p className="text-description text-desc">PAVILLION</p>
           </div>
 
-          <div className="grid-2--cols cursor">
-            <img src={arc4} alt="" className="arc-img" />
-            <p className="text-description text-desc">PROJECT TITLE</p>
+          <div
+            className="grid-2--cols cursor"
+            onClick={() => Navigate("/product/project")}>
+            <img src={arc4} alt="" className="arc-img th" />
+            <p className="text-description text-desc">TREEHOUSE</p>
           </div>
 
-          <div className="grid-2--cols cursor">
+          <div
+            className="grid-2--cols cursor"
+            onClick={() => Navigate("/product/project")}>
             <img src={arc5} alt="" className="arc-img" />
-            <p className="text-description text-desc">PROJECT TITLE</p>
+            <p className="text-description text-desc">PARK BOOTH</p>
           </div>
 
-          <div className="grid-2--cols cursor">
+          <div
+            className="grid-2--cols cursor"
+            onClick={() => Navigate("/product/project")}>
             <img src={arc6} alt="" className="arc-img" />
-            <p className="text-description text-desc">PROJECT TITLE</p>
+            <p className="text-description text-desc">MAKOKO</p>
           </div>
         </div>
       </div>
